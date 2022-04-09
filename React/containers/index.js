@@ -1,0 +1,9 @@
+export { default as Aboutus } from './aboutus/Aboutus';
+export { default as Footer } from './footer/Footer';
+export { default as Header } from './header/Header';
+export { default as Latest } from './latest/Latest';
+export { default as Links } from './links/Links';
+export { default as Teachbase } from './teachbase/Teachbase';
+export { default as Youtube } from './youtube/Youtube';  
+export { default as Events_latest } from './events_latest/Events_latest';  
+export { default as All_projects } from './all_projects/All_projects'; 

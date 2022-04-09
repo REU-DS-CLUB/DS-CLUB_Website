@@ -1,0 +1,111 @@
+.links__bg{
+    display: block;
+    margin: 10rem 6rem;
+}
+.links__bg h1{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 33px;
+    line-height: 26px;
+    /* identical to box height, or 79% */
+
+
+    color: #E5E5E5;
+
+}
+.links__container{
+    display: flex;
+    margin-top: 6rem;
+    justify-content: center;
+    background-color: #000000;
+    box-shadow: 4px 4px 20px #FF7D1E;
+    border-radius: 12px;
+    height: 450px;
+    
+}
+
+.links__container-link{
+    margin: auto auto;
+    display: block;
+    
+    background: #2A282F;
+    border-radius: 8px;
+    width: 30%;
+    height: 87%;
+    text-align: center;
+}
+.links__container-link img{
+    margin-top: 3rem;
+    width: 77px;
+    height: 74px;
+}
+.links__container-link h2{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 30px;
+    /* identical to box height, or 136% */
+    margin-top: 2rem;
+    text-align: center;
+    letter-spacing: -0.55px;
+
+    color: #FFFFFF;
+
+}
+
+.links__container-link p{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 28px;
+    /* or 156% */
+    margin: 1rem 2rem;
+    text-align: center;
+    letter-spacing: -0.004em;
+
+    color: #E0E0E0;
+}
+
+@media screen and (max-width:1000px){
+    .links__container{
+        display: block;
+        height: auto;
+        padding: 1px 0rem;
+    }
+    .links__container-link{
+        display: flex;
+        height: auto;
+        width: 95%;
+        margin: 1rem auto;
+        
+    }
+    .links__container-link img{
+        margin-top: auto;
+        margin-bottom: auto;
+        margin-left: 1rem;
+    }
+    .links__container-link-text{
+        width: 100%;
+    }
+    
+    
+    
+}
+
+@media screen and (max-width:600px){
+    .links__bg{
+        margin: 5rem 2rem;
+    }
+    .links__container-link{
+        display: block;
+        padding-bottom: 2rem;
+        margin: 0.5rem auto;
+    }
+    .links__container-link img{
+       margin-top: 1rem;
+    }
+    
+}

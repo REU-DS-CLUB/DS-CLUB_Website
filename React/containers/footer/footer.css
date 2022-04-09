@@ -1,0 +1,94 @@
+.footer__bg{
+    display: flex;
+    padding: 3rem 6rem;
+    background: black;
+}
+
+.footer__contacts h2, p{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    color: #C4C4C4;
+    
+}
+
+.footer_contacts_text{
+    margin-top: 3rem;
+}
+
+.footer__container h2, a{
+    font-family: Montserrat;
+    
+    font-style: normal;
+    font-weight: normal;
+    color: #A4A2A2;
+}
+.footer__container h2{
+    margin-top: 3rem;
+}
+
+.footer__container{
+    margin-left: 10rem;
+}
+
+.footer__container-links{
+    margin-top: 3rem;
+}
+.footer__container-pages{
+    margin-top: 3rem;
+}
+.footer__container-links a{
+    text-decoration: underline;
+    font-size: 16px;
+}
+
+.link_text{
+    margin-left: 3rem;
+}
+
+.footer__container-pages a{
+    text-decoration: underline;
+    font-size: 24px;
+}
+.pages-link{
+    margin-left: 2rem;
+}
+
+
+@media screen and (max-width:850px){
+    .footer__bg{
+        display: block;
+
+    }
+    .footer__container{
+        margin-left: 0rem;
+    }
+
+}
+
+@media screen and (max-width:550px){
+    .footer__bg{
+        display: block;
+    }
+    .footer__bg{
+
+        padding: 1rem 1rem;
+
+    }
+    .footer__container-links{
+        display: grid;
+        margin-top: 1rem;
+    }
+    .link_text{
+        margin-left: 0rem;
+        margin-top: 0.5rem;
+    }
+
+}
+
+@media screen and (max-width:350px){
+    .footer__container-pages{
+        display: grid;
+    }
+
+}

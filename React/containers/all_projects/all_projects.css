@@ -1,0 +1,143 @@
+.a, h2{
+    font-family: Montserrat;
+    font-style: normal;
+    
+}
+
+.latest__bg-newtext{
+    color: var(--text-color);
+    font-weight: bold;
+    font-size: 33px;
+    
+}
+
+.latest__bg{
+    
+    
+    display: block;
+    margin-bottom: 2rem;
+    
+}
+.latest__header{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    
+}
+
+.latest__container{
+    display: block;
+    margin-top: 2rem;
+    justify-content: center;
+    align-items: center;
+    background-color: #000000;
+    box-shadow: 4px 4px 20px #FF7D1E;
+    border-radius: 12px;
+    
+    height: auto;
+    
+}
+.latest__container-link{
+    margin: 2rem;
+    display: block;
+    border-radius: 8px;
+    width: 30%;
+    height: 87%;
+       
+}
+.latest__container-link-about{
+    width: 100%;
+    display: flex;
+    align-items: center;
+
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: -0.004em;
+    color: var(--text-color);
+    opacity: 0.5;
+
+    margin-top: 0.5rem;
+}
+.elipse{
+    width: 4px;
+    height: 4px;
+    left: 77.5px;
+    top: 11px;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    border-radius: 2px;
+    background: #FFFFFF;
+    opacity: 0.5;
+}
+
+.latest__container-link h2{
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 30px;
+    /* or 136% */
+    letter-spacing: -0.55px;
+    color: var(--text-color);
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+}
+
+.read_more{
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 30px;
+    /* identical to box height, or 150% */
+    letter-spacing: -0.55px;
+    color: var(--text-color);
+    
+}
+.latest__container-str{
+    display: flex;
+}
+
+.latest__container-link-img{
+    width: 100%;
+}
+
+@media screen and (max-width:1000px){
+    .latest__container-str{
+        display: block;
+        padding-top: 1rem;
+        
+    }
+    .latest__container-link-info{
+        display: block;
+        margin-left: 2rem;
+        
+    }
+    .latest__container-link{
+        display: flex;
+        width: 90%;
+    }
+    .latest__container{
+        padding-bottom: 1rem;
+    }
+
+}
+
+@media screen and (max-width:720px){
+    .latest__container-str{
+        display: block;       
+    }
+    .latest__container-link-info{
+        display: block;
+        margin: auto;
+        
+    }
+    .latest__container-link{
+        display: block;
+        width: 90%;
+        margin: 0.6rem ;
+        
+    }
+    .latest__container{
+        padding-bottom: 1rem;
+        width: 100%;
+    }
+
+}
+
