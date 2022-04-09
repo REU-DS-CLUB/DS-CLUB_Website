@@ -7,4 +7,4 @@
 
 ## В данном репрозитории вы можете увидеть 2 версии нашего сайта. Первая это осзданная с помощью javascript библиотеки React. Вторая созданная с помощью low-code платформы Webflow. Версии имеют отличия.
 
-##Подробнее о процессе создания - https://reu-ds-club.notion.site/REU-Data-Science-Club-a1978e019da6433b8af9b14c8609de50
+## Подробнее о процессе создания - https://reu-ds-club.notion.site/REU-Data-Science-Club-a1978e019da6433b8af9b14c8609de50
