@@ -1,0 +1,25 @@
+.Projects{
+    background-color: black;
+}
+.elipse-gradient-1__bg{
+    position: absolute;
+    width: 387px;
+    height: 387px;
+    right: 125%;
+    
+    background: rgba(255, 125, 30, 0.65);
+    opacity: 0.75;
+    filter: blur(350px);
+}
+
+.elipse-gradient-2__bg{
+    position: absolute;
+    width: 164px;
+    height: 164px;
+    left: 50px;
+    top: 250px;
+
+    background: rgba(255, 125, 30, 0.65);
+    filter: blur(100px);
+}
+
