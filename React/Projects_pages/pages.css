@@ -1,0 +1,39 @@
+.pages__bg{
+    background-color: white;
+}
+
+h1, h2, p{
+    font-family: Montserrat;
+    font-style: normal;
+    color: #000000;
+}
+
+.pages__container{
+    margin: 4rem 6rem;
+}
+
+.pages__container-h2{
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 30px;
+    letter-spacing: -0.55px;
+}
+
+.pages__container-p{
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 30px;
+    letter-spacing: -0.004em;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+.pages__container-img{
+    width: 100%;
+}
+
+@media screen and (max-width:550px){
+    .pages__container{
+        margin: 1rem 1rem;
+    }
+}
