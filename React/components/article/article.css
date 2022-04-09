@@ -1,0 +1,66 @@
+.article__bg{
+    margin: 4rem 6rem;
+}
+
+.article__h1{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 33px;
+    line-height: 40px;
+    
+    /* identical to box height, or 79% */
+    margin-bottom: 3rem;
+
+    color: #000000;
+}
+
+.article__h2{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 30px;
+    /* identical to box height, or 167% */
+
+    letter-spacing: -0.004em;
+
+    color: #000000;
+
+}
+
+.article_container-text{
+    display: flex;
+    margin-top: 1rem;
+}
+
+.article__p{
+    /* DSClub normal */
+
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 30px;
+    /* identical to box height, or 167% */
+
+    letter-spacing: -0.004em;
+
+    color: #000000;
+
+    margin-left: 0.5rem;
+
+}
+
+@media screen and (max-width:850px){
+    .article_container-text{
+        display: block;
+        
+    }
+}
+
+@media screen and (max-width:550px){
+    .article__bg{
+        margin: 1rem 1rem;
+    }
+}
