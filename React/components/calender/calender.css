@@ -1,0 +1,19 @@
+.h1{
+    color: #000;
+    font-size: 1000px;
+}
+.calender__bg{
+    width: 100%;
+    
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.calender__box{
+    margin-top: 2rem;
+    width: 90%;
+}

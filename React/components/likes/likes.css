@@ -1,0 +1,32 @@
+.likes_and_views__container{
+    display: flex;
+    margin-top: 8rem;
+}
+.likes_and_views__container p{
+    margin-left: 0.5rem;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    /* identical to box height, or 162% */
+
+    letter-spacing: -0.004em;
+
+    color: #000000;
+}
+.likes_and_views__container img{
+    margin-left: 0.5rem;
+}
+.comment__container-h2{
+    margin-top: 2rem;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 30px;
+    /* identical to box height, or 136% */
+    letter-spacing: -0.55px;
+    
+    color: #000000;
+}
