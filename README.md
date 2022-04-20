@@ -14,9 +14,9 @@
 2. Вы создаете папку в удобном вам месте и открываете ее в удобном для вас IDE(в нашем случае VScode)
 3. Для старта нужно прописать в терминале с указанным к папке путем команду - "npx create-react-app ./". После этого вы увидите несколько новых папок
 4. Затем нужно установить несколько библиотек с помощью нескольких комманд: 
-⋅⋅* npm install react-router-dom
-⋅⋅* npm install react-native --force
-⋅⋅* npm install @ericz1803/react-google-calendar --force
+- npm install react-router-dom
+- npm install react-native --force
+- npm install @ericz1803/react-google-calendar --force
 5. Теперь вы должны скачать папку React с этого репрозитория, переименовать её в src и заменить ей папку src в вашем react приложении
 6. Прописываете команду "npm start" и локальный сервер с сайтом запускается
 
