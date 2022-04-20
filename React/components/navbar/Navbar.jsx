@@ -1,6 +1,5 @@
 import React, {useState} from 'react';
 import logo from '../../assets/logo.svg';
-import { RiMenu3Line, RiCloseLine } from 'react-icons/ri';
 import { BrowserRouter as Routes, Route, Link } from "react-router-dom";
 import {Search} from '../../components'
 import './navbar.css';
